@@ -1,6 +1,6 @@
 // Java program to calculate Simple Interest
 import java.io.*;
-class Calculator {
+class si{ 
     public static void main(String args[])
     {
         float P = 1, R = 1, T = 1;

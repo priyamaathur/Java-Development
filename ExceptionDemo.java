@@ -2,6 +2,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 public class ExceptionDemo {
+    //Method that throws IOException
     public static void main(String[] args) {
         //1. try-catch block
         int[] marks = {97, 98, 95, };
@@ -24,11 +25,11 @@ public class ExceptionDemo {
         } catch (Exception e) {
             System.out.println("Some other error: " + e);
 
-            //3. finally block
+            //3. finally block 
         } finally {
             System.out.println("This block is always executed.");
-
-            //4. throw keyword
+        }
+            //4. throw keyword 
             try {
                 throw new IOException("This is a custom IO exception");
             } catch (IOException e) {

@@ -43,5 +43,11 @@ public class ConditionalStatements {
             default:
                 System.out.println("Invalid day");
         }
+
+        //4. ternary operator
+        int number = 10;
+        String result = (number % 2 == 0) ? "Even" : "Odd";
+        System.out.println(result);
+        
 }
 }
